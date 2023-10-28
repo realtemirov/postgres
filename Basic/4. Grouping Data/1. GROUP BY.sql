@@ -1,66 +1,70 @@
--- SELECT select_list
--- FROM table_name
--- WHERE condition
--- ORDER BY sort_expression
+-- SELECT
+--     column_1,
+--     column_2,
+--     ...,
+--     aggregate_function(column_3)
+-- FROM 
+--     table_name
+-- GROUP BY
+--     column_1,
+--     column_2,
+--     ...;
 
 SELECT
-    first_name,
-    last_name
-FROM
-    customer
-WHERE
-    first_name='Jamie';
+    customer_id
+FROM 
+    payment
+GROUP BY
+    customer_id;
 
 SELECT
-    first_name,
-    last_name
-FROM
-    customer
-WHERE
-    first_name='Jamie' AND
-    last_name='Rice';
+    customer_id,
+    SUM(amount)
+FROM payment
+GROUP BY customer_id;
 
 SELECT
-    first_name,
-    last_name
+    customer_id,
+    SUM(amount)
 FROM
-    customer
-WHERE
-    last_name='Rodriguez' OR
-    first_name='Adam';
-
-SELECT
-    first_name,
-    last_name
-FROM
-    customer
-WHERE
-    first_name IN ('Ann','Anne','Annie');
-
-SELECT
-    first_name,
-    last_name
-FROM
-    customer
-WHERE
-    first_name LIKE 'Ann%';
-
-SELECT
-    first_name,
-    LENGTH(first_name) name_length
-FROM
-    customer
-WHERE
-    first_name LIKE 'A%' AND
-    LENGTH(first_name) BETWEEN 3 AND 5
+    payment
+GROUP BY (customer_id)
 ORDER BY
-    first_name;
+    SUM(amount) DESC;
+
+SELECT 
+    first_name || ' ' || last_name full_name,
+    SUM(amount) amount
+FROM 
+    payment
+INNER JOIN customer USING(customer_id)
+GROUP BY
+    full_name
+ORDER BY amount DESC;
 
 SELECT
-    first_name,
-    last_name
+    staff_id,
+    COUNT(payment_id)
+FROM payment
+GROUP BY
+    staff_id;
+
+SELECT
+    customer_id,
+    staff_id,
+    SUM(amount)
 FROM
-    customer
-WHERE
-    first_name LIKE 'Bra%' AND
-    last_name <> 'Motley';
+    payment
+GROUP BY
+    staff_id,
+    customer_id
+ORDER BY
+    customer_id;
+
+SELECT
+    DATE(payment_date) paid_date,
+    SUM(amount) sum
+FROM
+    payment
+GROUP BY
+    DATE(payment_date);

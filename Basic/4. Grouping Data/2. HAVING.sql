@@ -1,66 +1,45 @@
--- SELECT select_list
--- FROM table_name
--- WHERE condition
--- ORDER BY sort_expression
+-- SELECT
+--     column1,
+--     aggregate_function(column2)
+-- FROM
+--     table_name
+-- GROUP BY
+--     column1
+-- HAVING
+--     condition;
+
+SELECT 
+    customer_id,
+    SUM(amount)
+FROM
+    payment
+GROUP BY
+    customer_id;
+
+SELECT 
+    customer_id,
+    SUM(amount)
+FROM
+    payment
+GROUP BY
+    customer_id
+HAVING
+    SUM(amount) > 200;
 
 SELECT
-    first_name,
-    last_name
+    store_id,
+    COUNT(customer_id)
 FROM
     customer
-WHERE
-    first_name='Jamie';
+GROUP BY
+    store_id;
 
 SELECT
-    first_name,
-    last_name
+    store_id,
+    COUNT(customer_id)
 FROM
     customer
-WHERE
-    first_name='Jamie' AND
-    last_name='Rice';
-
-SELECT
-    first_name,
-    last_name
-FROM
-    customer
-WHERE
-    last_name='Rodriguez' OR
-    first_name='Adam';
-
-SELECT
-    first_name,
-    last_name
-FROM
-    customer
-WHERE
-    first_name IN ('Ann','Anne','Annie');
-
-SELECT
-    first_name,
-    last_name
-FROM
-    customer
-WHERE
-    first_name LIKE 'Ann%';
-
-SELECT
-    first_name,
-    LENGTH(first_name) name_length
-FROM
-    customer
-WHERE
-    first_name LIKE 'A%' AND
-    LENGTH(first_name) BETWEEN 3 AND 5
-ORDER BY
-    first_name;
-
-SELECT
-    first_name,
-    last_name
-FROM
-    customer
-WHERE
-    first_name LIKE 'Bra%' AND
-    last_name <> 'Motley';
+GROUP BY
+    store_id
+HAVING
+    COUNT(customer_id) > 300;
