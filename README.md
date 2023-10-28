@@ -17,7 +17,7 @@ Kodlashni osonlashtirish uchun `makefile` faylidan foydalanamiz.
 
 
 # Content
-
+* [Environment](<Makefile.md>)
 ## 1. Querying Data
 * [SELECT](<1. Querying Data/1. SELECT.md>)
 * [Column alias](<1. Querying Data/2. COLUMN_ALIAS.md>)
