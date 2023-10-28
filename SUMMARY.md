@@ -81,3 +81,7 @@
   * [Chapter 8](<12. Answers to exercises/Chapter 8.md>)
   * [Chapter 9](<12. Answers to exercises/Chapter 9.md>)
   * [Chapter 10](<12. Answers to exercises/Chapter 10.md>)
+* [postgresqltutorial.com](README.md)
+* [Basic](Basic/README.md)
+  * [3. Joining Multiple Tables](<Basic/3. Joining Multiple Tables/README.md>)
+    * [Joins](<Basic/3. Joining Multiple Tables/Joins.md>)
