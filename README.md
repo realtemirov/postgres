@@ -1,4 +1,4 @@
-# postgresqltutorial.com.com 
+# postgresqltutorial.com
 
 ## PostgreSQL Tutorial
 
