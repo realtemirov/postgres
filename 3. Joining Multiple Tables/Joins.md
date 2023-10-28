@@ -224,4 +224,8 @@ asfasd
 
 ## References:
 
+{% content-ref url="http://127.0.0.1:5000/s/ph1HxDSjv1WZIGnZdp4r/1.-introduction-to-algorithms/3.-big-o-notation" %}
+[Big O notation](http://127.0.0.1:5000/s/ph1HxDSjv1WZIGnZdp4r/1.-introduction-to-algorithms/3.-big-o-notation)
+{% endcontent-ref %}
+
 ![Alt text](image.png)
