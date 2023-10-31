@@ -1,6 +1,8 @@
 # Querying Data
-Bu bo'limda biz ma'lumotlarni olish uchun so'rovlarni ko'rib chiqamiz.
 
+## 1-bo'lim. Ma'lumotlarni so'rash
+
+Bu bo'limda biz ma'lumotlarni olish uchun so'rovlarni ko'rib chiqamiz.
 
 `SELECT` - bitta jadvaldan ma'lumotlarni so'rash
 
@@ -8,7 +10,7 @@ Bu bo'limda biz ma'lumotlarni olish uchun so'rovlarni ko'rib chiqamiz.
 
 `ORDER` - soʻrovdan qaytarilgan natijalar toʻplamini qanday saralash boʻyicha sizga koʻrsatma beradi.
 
-`SELECT DISTINCT` - natijalar to'plamidagi takroriy qatorlarni olib tashlaydigan bandni taqdim etish\
+`SELECT DISTINCT` - natijalar to'plamidagi takroriy qatorlarni olib tashlaydigan bandni taqdim etish
 
 ## Summary
 Bu qismda `PostgreSQL` da `SELECT` keywordi bilan tanishamiz. `SELECT` keywordi bitta jadvaldan ma'lumotlarni olish uchun ishlatiladi.
