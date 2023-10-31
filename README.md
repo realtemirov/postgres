@@ -16,45 +16,42 @@ Kodlashni osonlashtirish uchun `makefile` faylidan foydalanamiz.
 
 
 
-# Content
-* [Environment](<Makefile.md>)
-## 1. Querying Data
-* [SELECT](<1. Querying Data/1. SELECT.md>)
-* [Column alias](<1. Querying Data/2. COLUMN_ALIAS.md>)
-* [ORDER BY](<1. Querying Data/3. ORDER_BY.md>)
-* [SELECT DISTINCT](<1. Querying Data/4. SELECT_DISTINCT.md>)
-
-## 3. Filtering Data
-* [WHERE](<2. Filtering Data/1. WHERE.md>)
-* [LIMIT](<2. Filtering Data/2. LIMIT.md>)
-* [FETCH](<2. Filtering Data/3. FETCH.md>)
-* [IN](<2. Filtering Data/4. IN.md>)
-* [BETWEEN](<2. Filtering Data/5. BETWEEN.md>)
-* [LIKE](<2. Filtering Data/6. LIKE.md>)
-* [IS NULL](<2. Filtering Data/7. IS NULL.md>)
-
-## 3. Joining Multiple Tables
-* [Joins](<3. Joining Multiple Tables/1. JOINS.md>)
-* [Table aliases](<3. Joining Multiple Tables/2. TABLE ALIASES.md>)
-* [INNER JOIN](<3. Joining Multiple Tables/3. INNER JOIN.md>)
-* [LEFT JOIN](<3. Joining Multiple Tables/4. LEFT JOIN.md>)
-* [RIGHT JOIN](<3. Joining Multiple Tables/5. RIGHT JOIN.md>)
-* [SELF JOIN](<3. Joining Multiple Tables/6. SELF JOIN.md>)
-* [FULL OUTER JOIN](<3. Joining Multiple Tables/7. FULL OUTER JOIN.md>)
-* [CROSS JOIN](<3. Joining Multiple Tables/8. CROSS JOIN.md>)
-* [NATURAL JOIN](<3. Joining Multiple Tables/9. NATURAL JOIN.md>)
-
-## 4. Grouping Data
-* [GROUP BY](<4. Grouping Data/1. GROUP BY.md>)
-* [HAVING](<4. Grouping Data/2. HAVING.md>)
-
-## 5. Set Operations
-* [UNION](<5. Set Operations/1. UNION.md>)
-* [INTERSECT](<5. Set Operations/2. INTERSECT.md>)
-* [EXCEPT](<5. Set Operations/3. EXCEPT.md>)
-
-## 6. Grouping sets, Cube, and Rollup
-* [Grouping sets](<6. Grouping sets, Cube, and Rollup/1. Grouping SETS.md>)
-* [CUBE](<6. Grouping sets, Cube, and Rollup/2. Cube.md>)
-* [ROLLUP](<6. Grouping sets, Cube, and Rollup/3. Rollup.md>)
-
+## Content
+* [Getting Started](<./Getting Started/README.md>)
+* [Basic](<./Basic/README.md>)
+* [Advanced](<./Advanced/README.md>)
+<!-- 
+* [Querying Data](<./Basic/Querying Data/README.md>)
+    * [SELECT](<./Basic/Querying Data/1. SELECT.md>)
+    * [Column alias](<./Basic/Querying Data/2. COLUMN_ALIAS.md>)
+    * [ORDER BY](<./Basic/Querying Data/3. ORDER_BY.md>)
+    * [SELECT DISTINCT](<./Basic/Querying Data/4. SELECT_DISTINCT.md>)
+  * [Filtering Data](<./Basic/Filtering Data/README.md>)
+    * [WHERE](<./Basic/Filtering Data/1. WHERE.md>)
+    * [LIMIT](<./Basic/Filtering Data/2. LIMIT.md>)
+    * [FETCH](<./Basic/Filtering Data/3. FETCH.md>)
+    * [IN](<./Basic/Filtering Data/4. IN.md>)
+    * [BETWEEN](<./Basic/Filtering Data/5. BETWEEN.md>)
+    * [LIKE](<./Basic/Filtering Data/6. LIKE.md>)
+    * [IS NULL](<./Basic/Filtering Data/7. IS NULL.md>)
+  * [Joining Multiple tables](<./Basic/Joining Multiple Tables/README.md>)
+    * [Joins](<./Basic/Joining Multiple Tables/1. JOINS.md>)
+    * [Table aliases](<./Basic/Joining Multiple Tables/2. TABLE ALIASES.md>)
+    * [INNER JOIN](<./Basic/Joining Multiple Tables/3. INNER JOIN.md>)
+    * [LEFT JOIN](<./Basic/Joining Multiple Tables/4. LEFT JOIN.md>)
+    * [RIGHT JOIN](<./Basic/Joining Multiple Tables/5. RIGHT JOIN.md>)
+    * [SELF JOIN](<./Basic/Joining Multiple Tables/6. SELF JOIN.md>)
+    * [FULL OUTER JOIN](<./Basic/Joining Multiple Tables/7. FULL OUTER JOIN.md>)
+    * [CROSS JOIN](<./Basic/Joining Multiple Tables/8. CROSS JOIN.md>)
+    * [NATURAL JOIN](<./Basic/Joining Multiple Tables/9. NATURAL JOIN.md>)
+  * [Grouping data](<./Basic/./Grouping Data/README.md>)
+    * [GROUP BY](<./Basic/Grouping Data/1. GROUP BY.md>)
+    * [HAVING](<./Basic/Grouping Data/2. HAVING.md>)
+  * [Set Operations](<./Basic/Set Operations/README.md>)
+    * [UNION](<./Basic/Set Operations/1. UNION.md>)
+    * [INTERSECT](<./Basic/Set Operations/2. INTERSECT.md>)
+    * [EXCEPT](<./Basic/Set Operations/3. EXCEPT.md>)
+  * [Grouping sets, Cube, and Rollup](<./Basic/Grouping sets, Cube, and Rollup/README.md>)
+    * [Grouping sets](<./Basic/Grouping sets, Cube, and Rollup/1. Grouping SETS.md>)
+    * [CUBE](<./Basic/Grouping sets, Cube, and Rollup/2. Cube.md>)
+    * [ROLLUP](<./Basic/Grouping sets, Cube, and Rollup/3. Rollup.md>) -->
