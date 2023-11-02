@@ -1,8 +1,11 @@
-# postgresqltutorial.com
+# Environment
 
 ### Initial Setup
-We have a makefile that will help you setup the database and run the queries. <br> We use Docker to run the database.
-<br>
+
+We have a makefile that will help you setup the database and run the queries.\
+We use Docker to run the database.\
+
+
 #### Create Database with Docker
 
 ```bash
@@ -38,7 +41,6 @@ $ make stop
 ```bash
 $ make delete
 ```
-
 
 ## Sample Database for use with PostgreSQL
 
