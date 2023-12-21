@@ -4,6 +4,7 @@ cover: >-
 coverY: -65
 ---
 
+
 # PostgreSQL Tutorial
 
 PostgreSQL - bu Postgres nomi bilan ham tanilgan, bepul va ochiq manbali relyatsion ma'lumotlar bazasini boshqarish tizimi (RDBMS) kengaytirilishi va SQL muvofiqligini ta'kidlaydi. 
@@ -55,3 +56,7 @@ Kodlashni osonlashtirish uchun `makefile` faylidan foydalanamiz.
     * [Grouping sets](<./Basic/Grouping sets, Cube, and Rollup/1. Grouping SETS.md>)
     * [CUBE](<./Basic/Grouping sets, Cube, and Rollup/2. Cube.md>)
     * [ROLLUP](<./Basic/Grouping sets, Cube, and Rollup/3. Rollup.md>) -->
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3336946261359256"
+     crossorigin="anonymous">
+</script>
