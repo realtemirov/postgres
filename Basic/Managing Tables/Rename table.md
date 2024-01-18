@@ -69,7 +69,7 @@ Jadval nomini yangisiga o'zgartirganingizda, PostgreSQL o'zining tashqi kalit ch
 \d suppliers
 ```
 
-![table](image-22.png)
+![table](https://www.postgresqltutorial.com/wp-content/uploads/2020/07/postgresql-rename-table-example.png)
 
 Chiqarish shuni ko'rsatadiki, `suppliers` jadvalida `supplier_groups` jadvaliga havola qiluvchi tashqi kalit cheklovi mavjud.
 
@@ -81,7 +81,7 @@ ALTER TABLE supplier_groups RENAME TO groups;
 ```
 \d suppliers
 ```
-![table](image-23.png)
+![table](https://www.postgresqltutorial.com/wp-content/uploads/2020/07/postgresql-rename-table-with-foreign-key-constraint.png)
 
 
 Chiqishdan aniq ko'rinib turibdiki, chet el kaliti cheklovi yangilangan va buning o'rniga `groups` jadvaliga havola qilingan.
@@ -90,7 +90,7 @@ Quyidagi bayonot `supplier_data` ko'rinishini ko'rsatadi:
 ```
 \d+ supplier_data
 ```
-![image](image-24.png)
+![image](https://www.postgresqltutorial.com/wp-content/uploads/2020/07/postgresql-rename-table-with-foreign-key-constraint-1.png)
 
 Natija shuni ko'rsatadiki, ko'rinishning `SELECT` iborasidagi `supplier_groups` jadvali ham `groups` jadvaliga yangilangan.
 

@@ -67,7 +67,7 @@ CREATE TABLE accounts (
 );
 ```
 
-![table](image-1.png)
+![table](https://www.postgresqltutorial.com/wp-content/uploads/2020/07/PostgreSQL-Create-Table-accounts-example.png)
 
 Quyidagi bayonot ikkita ustundan iborat `roles` jadvalini yaratadi: `role_id` va `role_name`:
 
@@ -78,7 +78,7 @@ CREATE TABLE roles(
 );
 ```
 
-![output](image-2.png)
+![output](https://www.postgresqltutorial.com/wp-content/uploads/2020/07/PostgreSQL-Create-Table-roles-example.png)
 
 Quyidagi bayonot uchta ustundan iborat `account_roles` jadvalini yaratadi: `user_id`, `role_id` va `grant_date`.
 
@@ -95,7 +95,7 @@ CREATE TABLE account_roles (
 );
 ```
 
-![table](image-3.png)
+![table](https://www.postgresqltutorial.com/wp-content/uploads/2020/07/PostgreSQL-Create-Table-account_roles-example.png)
 
 `account_roles` jadvalining asosiy kaliti ikkita ustundan iborat: `user_id` va `role_id`, shuning uchun biz asosiy kalit cheklovini jadval cheklovi sifatida belgilashimiz kerak. 
 
@@ -119,7 +119,7 @@ REFERENCES roles (role_id)
 
 Quyida `accounts`, `roles` va `account_roles` jadvallari o'rtasidagi munosabat ko'rsatilgan:
 
-![table](image-4.png)
+![table](https://www.postgresqltutorial.com/wp-content/uploads/2020/07/PostgreSQL-Create-Table-example.png)
 
 * Yangi jadval yaratish uchun `CREATE TABLE` iborasidan foydalaning.
 * Agar mavjud bo'lmasa, yangi jadval yaratish uchun `IF NOT EXISTS` opsiyasidan foydalaning.

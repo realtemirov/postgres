@@ -34,7 +34,7 @@ PL/pgSQL da `SELECT INTO` iborasidan foydalana olmaysiz, chunki u `INTO` bandini
 
 Namoyish uchun biz [namunaviy](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip) ma'lumotlar bazasidagi `film` jadvalidan foydalanamiz.
 
-![table](image-5.png)
+![table](https://www.postgresqltutorial.com/wp-content/uploads/2018/03/film_table.png)
 
 Quyidagi bayonot `film_r` deb nomlangan yangi jadvalni yaratadi, unda `film` jadvalidan 5 kunlik ijara muddati va `R` reytingiga ega filmlar mavjud.
 
@@ -59,7 +59,7 @@ Jadval yaratilishini tekshirish uchun `film_r` jadvalidan ma'lumotlarni so'rashi
 SELECT * FROM film_r;
 ```
 
-![output](image-6.png)
+![output](https://www.postgresqltutorial.com/wp-content/uploads/2020/07/PostgreSQL-Select-Into-Example.png)
 
 Quyidagi bayonot uzunligi 60 daqiqadan kam bo'lgan filmlarni o'z ichiga olgan `short_film` nomli vaqtinchalik jadvalni yaratadi.
 
@@ -83,7 +83,7 @@ Quyida short_film jadvalidagi ma'lumotlar ko'rsatilgan:
 SELECT * FROM short_film;
 ```
 
-![output](image-7.png)
+![output](https://www.postgresqltutorial.com/wp-content/uploads/2020/07/PostgreSQL-Select-Into-Temp-table-example.png)
 
 Ushbu qo'llanmada siz so'rov natijalari to'plamidan yangi jadval yaratish uchun PostgreSQL `SELECT INTO` bayonotidan qanday foydalanishni o'rgandingiz.
 

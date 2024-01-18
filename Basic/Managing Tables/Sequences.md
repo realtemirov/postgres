@@ -94,7 +94,7 @@ Ketma-ketlikdan keyingi qiymatni olish uchun `nextval()` funksiyasidan foydalani
 SELECT nextval('mysequence');
 ```
 
-![output](image-12.png)
+![output](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/PostgreSQL-Sequence-simple-example.png)
 
 Agar siz bayonotni qayta bajarsangiz, ketma-ketlikdan keyingi qiymatni olasiz:
 
@@ -102,7 +102,7 @@ Agar siz bayonotni qayta bajarsangiz, ketma-ketlikdan keyingi qiymatni olasiz:
 SELECT nextval('mysequence');
 ```
 
-![output](image-13.png)
+![output](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/PostgreSQL-Sequence-nextval-example.png)
 
 **2. Kamayuvchi ketma-ketlikni yaratish**
 
@@ -172,7 +172,7 @@ FROM
     order_details;
 ```
 
-![output](image-14.png)
+![output](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/PostgreSQL-Sequence-in-a-table.png)
 
 ## Ma'lumotlar bazasidagi barcha ketma-ketliklarni ro'yxatga olish
 

@@ -48,7 +48,7 @@ PostgreSQL CREATE TABLE AS bayonotiga misollar
 
 Namoyish uchun [namunaviy](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip) maʼlumotlar bazasidagi `film` va `film_category` jadvalidan foydalanamiz.
 
-![table](image-8.png)
+![table](https://www.postgresqltutorial.com/wp-content/uploads/2018/03/film_and_film_category_tables.png)
 
 Quyidagi bayonot birinchi toifaga tegishli bo'lgan jangovar filmlarni o'z ichiga olgan jadval yaratadi.
 
@@ -74,7 +74,7 @@ SELECT * FROM action_film
 ORDER BY title;
 ```
 
-![output](image-9.png)
+![output](https://www.postgresqltutorial.com/wp-content/uploads/2018/03/PostgreSQL-CREATE-TABLE-AS-data-verification.png)
 
 `action_film` tuzilishini tekshirish uchun psql asbobida quyidagi buyruqdan foydalanishingiz mumkin:
 
@@ -84,7 +84,7 @@ ORDER BY title;
 
 U quyidagi chiqishni qaytaradi:
 
-![table](image-10.png)
+![table](https://www.postgresqltutorial.com/wp-content/uploads/2018/03/PostgreSQL-CREATE-TABLE-AS-example.png)
 
 Chiqishda aniq ko'rsatilganidek, `action_film` jadvalining nomlari va ma'lumotlar turlari `SELECT` bandining ustunlaridan olingan.
 
@@ -112,7 +112,7 @@ Ushbu misol bayonoti yangi `film_rating` jadvalini yaratdi va uni `film` jadvali
 
 Quyidagi chiqish:
 
-![table](image-11.png)
+![table](https://www.postgresqltutorial.com/wp-content/uploads/2018/03/PostgreSQL-CREATE-TABLE-AS-with-explicit-column-names.png)
 
 E'tibor bering, `CREATE TABLE AS` iborasi `SELECT INTO` operatoriga o'xshaydi, lekin `CREATE TABLE AS` operatoriga afzallik beriladi, chunki u PL/pgSQL da `SELECT INTO` sintaksisining boshqa qo'llanilishi bilan aralashmaydi. Bundan tashqari, `CREATE TABLE AS` iborasi `SELECT INTO` operatori tomonidan taklif qilingan funksiyalarning yuqori toʻplamini taqdim etadi.
 

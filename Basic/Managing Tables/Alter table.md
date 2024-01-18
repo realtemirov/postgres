@@ -126,7 +126,7 @@ Quyidagi bayonot `links` jadvalidan ma'lumotlarni tanlaydi:
 ```sql
 SELECT * FROM links;
 ```
-![output](image-21.png)
+![output](https://www.postgresqltutorial.com/wp-content/uploads/2013/05/PostgreSQL-ALTER-TABLE-SET-DEFAULT.png)
 
 
 Quyidagi bayonot `target` ustunga `CHECK` shartini qo'shadi, shunda `target` ustun faqat quyidagi qiymatlarni qabul qiladi: `_self, _blank, _parent va _top`:

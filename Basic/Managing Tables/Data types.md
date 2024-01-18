@@ -2,7 +2,7 @@
 
 Ushbu qo'llanmada siz PostgreSQL ma'lumotlar turlari, jumladan Boolean, belgilar, raqamli, vaqtinchalik, massiv, json, uuid va maxsus turlar haqida bilib olasiz.
 
-![image](image.png)
+![image](https://www.postgresqltutorial.com/wp-content/uploads/2013/05/PostgreSQL-Data-Types-300x254.png)
 
 ## PostgreSQL ma'lumotlar turlarini umumiy ko'rinishi
 
