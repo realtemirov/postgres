@@ -266,4 +266,10 @@ REFERENCES parent_table(parent_key_columns)
 ON DELETE CASCADE;
 ```
 
+### Xulosa
+
+* Ikki jadval o'rtasidagi ma'lumotlarning yaxlitligi va izchilligini ta'minlash uchun tashqi kalitlardan foydalaning.
+* Jadval yaratishda tashqi kalit cheklovini aniqlash uchun `FOREIGN KEY` cheklovidan foydalaning.
+* Mavjud jadvalga tashqi kalit cheklovini qo'shish uchun `ALTER TABLE ... ADD CONSTRAINT ... FOREIGN KEY` dan foydalaning.
+
 © [postgresqltutorial.com](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-foreign-key/)
