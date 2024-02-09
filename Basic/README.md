@@ -94,3 +94,10 @@ Ushbu bo'limda siz PostgreSQL ma'lumotlar turlarini o'rganishni boshlaysiz va ya
 * [**Truncate table**](<./Managing Tables/Truncate table.md>) - katta jadvaldagi barcha ma'lumotlarni tez va samarali tarzda olib tashlash.
 * [**Temporary table**](<./Managing Tables/Temporary table.md>) - vaqtinchalik jadvaldan qanday foydalanishni ko'rsating.
 * [**Copy a table**](<./Managing Tables/Copy a table.md>) - jadvalni yangisiga qanday nusxalashni ko'rsating
+
+## Section 13. Understanding PostgreSQL Constraints
+* [**Primary key**](<./Understanding PostgreSQL Constraints/Primary key.md>) - jadval yaratishda yoki mavjud jadvalga asosiy kalitni qo'shishda asosiy kalitni qanday aniqlashni ko'rsatilgan.
+* [**Foreign key**](<./Understanding PostgreSQL Constraints/Foreign key.md>) - yangi jadval yaratishda yoki mavjud jadvallar uchun xorijiy kalit cheklovlarini qo'shishda tashqi kalit cheklovlarini qanday aniqlashni ko'rsatilgan
+* [**CHECK constraint**](<./Understanding PostgreSQL Constraints/CHECK constraint.md>) - mantiqiy ifodaga asoslangan qiymatni tekshirish uchun mantiq qo'shish.
+* [**UNIQUE constraint**](<./Understanding PostgreSQL Constraints/UNIQUE constraint.md>) - ustun yoki ustunlar guruhidagi qiymatlar jadvalda yagona ekanligiga ishonch hosil qilish.
+* [**NOT NULL constraint**](<./Understanding PostgreSQL Constraints/NOT NULL constraint.md>) - ustundagi qiymatlar `NULL` emasligiga ishonch hosil qilish.
