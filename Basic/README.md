@@ -94,3 +94,25 @@ Ushbu bo'limda siz PostgreSQL ma'lumotlar turlarini o'rganishni boshlaysiz va ya
 * [**Truncate table**](<./Managing Tables/Truncate table.md>) - katta jadvaldagi barcha ma'lumotlarni tez va samarali tarzda olib tashlash.
 * [**Temporary table**](<./Managing Tables/Temporary table.md>) - vaqtinchalik jadvaldan qanday foydalanishni ko'rsating.
 * [**Copy a table**](<./Managing Tables/Copy a table.md>) - jadvalni yangisiga qanday nusxalashni ko'rsating
+
+## Section 13. Understanding PostgreSQL Constraints
+* [**Primary key**](<./Understanding PostgreSQL Constraints/Primary key.md>) - jadval yaratishda yoki mavjud jadvalga asosiy kalitni qo'shishda asosiy kalitni qanday aniqlashni ko'rsatilgan.
+* [**Foreign key**](<./Understanding PostgreSQL Constraints/Foreign key.md>) - yangi jadval yaratishda yoki mavjud jadvallar uchun xorijiy kalit cheklovlarini qo'shishda tashqi kalit cheklovlarini qanday aniqlashni ko'rsatilgan
+* [**CHECK constraint**](<./Understanding PostgreSQL Constraints/CHECK constraint.md>) - mantiqiy ifodaga asoslangan qiymatni tekshirish uchun mantiq qo'shish.
+* [**UNIQUE constraint**](<./Understanding PostgreSQL Constraints/UNIQUE constraint.md>) - ustun yoki ustunlar guruhidagi qiymatlar jadvalda yagona ekanligiga ishonch hosil qilish.
+* [**NOT NULL constraint**](<./Understanding PostgreSQL Constraints/NOT NULL constraint.md>) - ustundagi qiymatlar `NULL` emasligiga ishonch hosil qilish.
+
+## Section 14. PostgreSQL Data Types in Depth
+* [**Boolean**](<Basic/PostgreSQL Data Types in Depth/Boolean.md>) - Boolen ma'lumot turi bilan `TRUE` va `FALSE` saqlaydi.
+* [**CHAR, VARCHAR and TEXT**](<Basic/PostgreSQL Data Types in Depth/CHAR, VARCHAR and TEXT.md>) - `CHAR`, `VARCHAR` va `TEXT` kabi turli xil belgilar turlaridan qanday foydalanishni o'rganish.
+* [**NUMERIC**](<Basic/PostgreSQL Data Types in Depth/NUMERIC.md>) - aniqlik talab qilinadigan qiymatlarni saqlash uchun NUMERIC turidan qanday foydalanishni ko'rsatish.
+* [**Integer**](<Basic/PostgreSQL Data Types in Depth/Integer.md>) - sizni PostgreSQLda `SMALLINT`, `INT` va `BIGINT` kabi turli xil tamsayılar turlari bilan tanishish
+* [**DATE**](<Basic/PostgreSQL Data Types in Depth/DATE.md>) - sana qiymatlarini saqlash uchun DATE ma'lumotlar turini kiritish.
+* [**Timestamp**](<Basic/PostgreSQL Data Types in Depth/Timestamp.md>) - vaqt tamg'asi ma'lumotlar turlarini tezda tushunish.
+* [**Interval**](<Basic/PostgreSQL Data Types in Depth/Interval.md>) - davrni samarali boshqarish uchun intervalli ma'lumotlar turidan qanday foydalanishni ko'rsatish.
+* [**TIME**](<Basic/PostgreSQL Data Types in Depth/TIME.md>) - kun qiymatlarini boshqarish uchun `TIME` ma'lumotlar turidan foydalaning.
+* [**UUID**](<Basic/PostgreSQL Data Types in Depth/UUID.md>) - `UUID` ma'lumotlar turidan qanday foydalanish va taqdim etilgan modullar yordamida `UUID` qiymatlarini yaratish bo'yicha sizga yo'l-yo'riq.
+* [**Array**](<Basic/PostgreSQL Data Types in Depth/Array.md>) - massiv bilan qanday ishlashni ko'rsatib beradi va massivni manipulyatsiya qilish uchun ba'zi qulay funksiyalar bilan tanishtiradi.
+* [**hstore**](<Basic/PostgreSQL Data Types in Depth/hstore.md>) - sizni PostgreSQLda bitta qiymatda saqlanadigan kalit/qiymat juftliklari to'plami bo'lgan ma'lumotlar turi bilan tanishtiradi.
+* [**JSON**](<Basic/PostgreSQL Data Types in Depth/JSON.md>) - JSON ma'lumotlar turi bilan qanday ishlashni ko'rsating va eng muhim JSON operatorlari va funksiyalaridan qanday foydalanishni ko'rsatish.
+* [**User-defined data types**](<Basic/PostgreSQL Data Types in Depth/User-defined data types.md>) - foydalanuvchi tomonidan belgilangan ma'lumotlar turlarini yaratish uchun `CREATE DOMAIN` va `CREATE TYPE` iboralaridan qanday foydalanishni ko'rsatish.
